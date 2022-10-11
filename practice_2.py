@@ -1,16 +1,6 @@
 import random
 
-def newMatrix(x,y):
-    mat = []
-    minv = 0
-    maxv = 20
-    for i in range(x):
-        row = []
-        for j in range(y):
-            row.append(random.randint(minv, maxv))
-        mat.append(row)
-    print()
-    return mat
+
 def printMatrix(msg, mat):
     print(msg)
     for i in range(len(mat)):
